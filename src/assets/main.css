@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.google.com/specimen/DM+Sans');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  @apply bg-[#111315] text-[#FEF7EE];
+}
+button {
+  @apply px-3 py-2 rounded-lg;
+}
+
+.DM_Sans_Heading {
+  @apply text-[2rem];
+}
+.DM_Sans_Body {
+  @apply text-[1rem] text-[#6F757C];
+}
+.DM_Sans_Label {
+  @apply text-xs text-black font-semibold;
+}
+.DM_Sans_SmallText {
+  @apply text-xs text-[#6F757C] font-semibold;
+}
+.DM_Sans_PriceText {
+  @apply text-xs text-black font-semibold;
+}
